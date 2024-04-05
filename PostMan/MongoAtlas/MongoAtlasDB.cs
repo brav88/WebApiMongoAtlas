@@ -7,7 +7,7 @@ namespace PostMan.MongoAtlas
 {
 	public class MongoAtlasDB
 	{
-		const string connectionUri = "mongodb+srv://brav850:Admin1234@cluster0.vfi7une.mongodb.net/retryWrites=true&w=majority&appName=Cluster0";
+		const string connectionUri = "mongodb+srv://<>:<>@cluster0.vfi7une.mongodb.net/retryWrites=true&w=majority&appName=Cluster0";
 
 		public List<Movie> GetMovies()
 		{	
